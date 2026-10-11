@@ -16,6 +16,9 @@ dev = [
     "ruff>=0.12.11,<1",
 ]
 
+[tool.poetry]
+package-mode = false
+
 [tool.ruff]
 line-length = 100
 [tool.ruff.lint]
